@@ -1,0 +1,139 @@
+body {
+    background: #1E1C1C;
+}
+
+/** Globals **/
+.container-index {
+    display: flex;
+    width: min(60%, 120rem);
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+}
+h1, h2, h3, h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2;
+}
+h1 {
+    font-size: 4.8rem;
+}
+h2 {
+    font-size: 4rem;
+}
+h3 {
+    font-size: 3.2rem;
+}
+h4 {
+    font-size: 2.8rem;
+}
+img {
+    max-width: 100%;
+}
+
+/** CSS **/
+.button {
+    display: block;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+    background-color: #a74f4f;
+    transition: ease-out 0.3s;
+}
+.button:hover {
+    cursor: pointer;
+    background-color: #ff0000;
+}
+
+.list-no-style {
+    display: block;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.URL-ADD {
+    display: grid;
+    grid-template-columns: 6fr 3fr;
+    column-gap: 2rem;
+}
+
+.content-app {
+    background: #383535;
+    padding: 2rem;
+    border-style: solid;
+    border-color: #131111;
+    box-shadow: 0px 20px 30px 10px rgb(80 80 255 / 20%);
+}
+
+.logo {
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.statement {
+    display: grid;
+    grid-template-columns: 12fr 1fr;
+    background: #8b7ab3;
+    padding: 0.5rem;
+    width: auto;
+    border-style: solid;
+    border-width: 0.05rem;
+    border-color: black;
+    margin: 0.07rem 0 0 0;
+}
+.product {
+    display: flex;
+    align-items: center;
+}
+
+#test {
+    font-family: 'Quantico', sans-serif;
+    font-weight: 700;
+
+    margin: 4rem 0;
+    margin: 6rem 2rem;
+    border-style: dashed;
+    padding: 2rem 6rem;
+    border-radius: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.width100 {
+    width: 100%;
+}
+
+.backbutton {
+    display: block;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    padding: 0.5rem 2rem;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0rem 2rem;
+    border: none;
+    background-color: #be4e32;
+    transition: ease-out 0.3s;
+}
+.backbutton:hover {
+    cursor: pointer;
+    background-color: #f8ba33;
+}
+
+.nodetails {
+    list-style-type: none;
+}
