@@ -8,4 +8,4 @@ This project it's basically a Python server that uses HTML5, CSS3 and Javascript
 <!-- * [LinkedIn](https://www.linkedin.com/in/marcpozas/) -->
 
 ## Use example
-- [Preview](Preview.png)
+<img src="Preview.png" alt="Preview image">
